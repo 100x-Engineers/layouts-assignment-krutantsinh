@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100x</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+</head>
+
+<body class="font-inter">
+    <article class="flex w-full h-screen px-15 pb-[20px] flex-col items-start gap-3 shrink-0 bg-neutral-1000">
+
+        <section class="flex py-3 items-center gap-5 self-stretch">
+            <img src="../public/images/cross.svg" alt="x" class="w-6 h-6">
+            <h1 class="text-15 font-bold text-neutral-50">Step 3 of 4</h1>
+        </section>
+
+        <section class="flex flex-col items-start gap-10 self-stretch">
+            <section class="flex flex-col items-start gap-2 self-stretch">
+                <h1 class="text-24 font-bold text-neutral-50 ">We sent you a code</h1>
+                <p class="text-14 font-normal text-neutral-500">Enter it below to verify janedoe@gmail.com</p>
+            </section>
+            <section class="relative w-full">
+                <input type="text" id="Label" placeholder="Verification code"
+                    class="w-full py-4 px-3 rounded border border-solid text-neutral-50 text-20 bg-neutral-1000 placeholder:visible placeholder:focus:invisible focus:outline-none focus:border-twitterblue transition duration-300 peer relative"
+                    autocomplete="off">
+                <img src="../public/images/tick.svg" alt="tick"
+                    class="absolute inset-y-4 end-0 invisible peer-focus:visible pr-3">
+                <label for="Label"
+                    class="absolute left-3 text-neutral-500 cursor-text invisible peer-focus:visible peer-focus:text-12 peer-focus:-top-3 peer-focus:px-1 bg-neutral-1000 peer-focus:text-twitterblue transition duration-300">Verification
+                    code</label>
+                <section class="pt-3">
+                    <a href="../src/create_account_3.html" class="text-twitterblue text-14 font-normal flex flex-row justify-end">Didn't receive a code?
+                    </a>
+                </section>
+            </section>
+        </section>
+
+        <section class="flex pt-20 flex-col justify-end items-center gap-5 grow shrink-0 self-stretch">
+            <a href="../src/create_account_4.html"
+                class="flex w-full bg-neutral-50 py-3 px-6 justify-center items-center gap-2.5 shadow-3xl backdrop-blur-23 rounded-65 opacity-50">
+                <section class="text-center font-inter text-base font-bold">Next</section>
+            </a>
+        </section>
+
+    </article>
+</body>
+
+</html>
