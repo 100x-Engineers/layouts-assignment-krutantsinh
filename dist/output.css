@@ -592,32 +592,72 @@ video {
   top: 7rem;
 }
 
-.top-9 {
-  top: 2.25rem;
-}
-
-.top-40 {
-  top: 10rem;
-}
-
-.top-52 {
-  top: 13rem;
-}
-
-.top-56 {
-  top: 14rem;
-}
-
 .top-60 {
   top: 15rem;
 }
 
-.top-1 {
-  top: 0.25rem;
+.top-0 {
+  top: 0px;
 }
 
-.top-64 {
-  top: 16rem;
+.top-3 {
+  top: 0.75rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.left-28 {
+  left: 7rem;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
+.left-36 {
+  left: 9rem;
+}
+
+.left-40 {
+  left: 10rem;
+}
+
+.left-44 {
+  left: 11rem;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.top-2 {
+  top: 0.5rem;
 }
 
 .mb-16 {
@@ -644,6 +684,10 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -652,8 +696,20 @@ video {
   margin-top: 470px;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .block {
@@ -700,6 +756,10 @@ video {
   height: 2.25rem;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .h-\[68px\] {
   height: 68px;
 }
@@ -708,8 +768,16 @@ video {
   height: 100vh;
 }
 
-.h-\[200px\] {
-  height: 200px;
+.h-\[102px\] {
+  height: 102px;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-12 {
@@ -904,6 +972,10 @@ video {
   border-radius: 32px;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -987,8 +1059,8 @@ video {
   padding: 1rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.p-1 {
+  padding: 0.25rem;
 }
 
 .px-15 {
@@ -1068,6 +1140,10 @@ video {
   padding-bottom: 20px;
 }
 
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
 .pl-\[20px\] {
   padding-left: 20px;
 }
@@ -1096,10 +1172,6 @@ video {
   padding-top: 5px;
 }
 
-.pl-1 {
-  padding-left: 0.25rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1118,6 +1190,11 @@ video {
   line-height: 24px;
 }
 
+.text-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .text-20 {
   font-size: 20px;
   line-height: 24px;
@@ -1133,10 +1210,6 @@ video {
   line-height: 24px;
 }
 
-.text-\[16px\] {
-  font-size: 16px;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1144,11 +1217,6 @@ video {
 
 .text-sm {
   font-size: 1rem;
-}
-
-.text-16 {
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .font-bold {
@@ -1197,6 +1265,10 @@ video {
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .shadow-3xl {
@@ -1263,6 +1335,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .placeholder\:text-neutral-600::placeholder {
   --tw-text-opacity: 1;
   color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-500::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-500::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .hover\:bg-neutral-200:hover {
