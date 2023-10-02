@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Invert the color, you can adjust this as needed */
+}
+
+#charCount {
+    color: #eaeaea; /* Green color for characters within the limit */
+}
+
+#postTextarea:invalid ~ #charCount {
+    color: #FF0000; /* Red color for characters exceeding the limit */
+}

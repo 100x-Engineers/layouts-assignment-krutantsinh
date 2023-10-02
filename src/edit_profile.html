@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100x</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+</head>
+
+<body class="w-full shrink-0 bg-neutral-1000 font-inter">
+    <article class="flex w-full px-4 flex-col items-start gap-3">
+        <section class="flex py-3 justify-between items-center self-stretch">
+            <section class="flex items-center gap-5">
+                <a href="../src/user_profile_1.html">
+                <img src="../public/images/left_arrow.svg" alt="arrow"></a>
+                <h1 class="text-neutral-50 text-16 font-bold">Edit profile</h1>
+            </section>
+            <section class="mt-2">
+                <a href="../src/user_profile_1.html"
+                    class="inline-flex py-2 px-[20px] justify-center items-center gap-2.5 rounded-30 bg-neutral-50 hover:bg-neutral-200 disabled:opacity-50">
+                    <section class="font-inter text-14 font-bold">Save</section>
+                </a>
+            </section>
+        </section>
+
+        <section class="relative">
+            <img src="../public/images/cover_img.png" alt="cover" class="w-full h-[200px] shrink-0 relative">
+            <img src="../public/images/addProfilePic.svg" alt="camera"
+                class="absolute top-20 left-32 p-1 rounded-full bg-neutral-1000 opacity-60">
+            <img src="../public/images/cross.svg" alt="cross"
+                class="absolute top-20 left-44 p-1 rounded-full bg-neutral-1000 opacity-60">
+
+        </section>
+        <section class="absolute top-60">
+            <img src="../public/images/mine.jpg" alt=""
+                class="w-[68px] h-[68px] shrink-0 rounded-200 border-4 border-solid border-neutral-1000 relative">
+            <img src="../public/images/addProfilePic.svg" alt="camera"
+                class="p-1 rounded-full bg-neutral-1000 opacity-60 absolute top-5 left-5">
+        </section>
+
+        <section class="relative w-full mt-6">
+            <input type="text" id="Label" placeholder="Name"
+                class="w-full py-4 px-3 h-[50px] rounded border border-solid text-neutral-50 text-20 bg-neutral-1000 placeholder:text-neutral-500 placeholder:visible placeholder:focus:invisible focus:outline-none focus:border-twitterblue transition duration-300 peer relative"
+                autocomplete="off">
+            <label for="Label"
+                class="absolute left-3 text-neutral-500 cursor-text invisible peer-focus:visible peer-focus:text-12 peer-focus:-top-3 peer-focus:px-1 bg-neutral-1000 peer-focus:text-twitterblue transition duration-300">Name</label>
+        </section>
+
+        <section class="relative w-full mt-6">
+            <input type="text" id="Label" placeholder="Bio"
+                class="w-full h-[102px] py-4 px-3 rounded border border-solid text-neutral-50 text-20 bg-neutral-1000 placeholder:text-neutral-500 placeholder:visible placeholder:focus:invisible focus:outline-none focus:border-twitterblue transition duration-300 peer relative"
+                autocomplete="off">
+            <label for="Label"
+                class="absolute left-3 text-neutral-500 cursor-text invisible peer-focus:visible peer-focus:text-12 peer-focus:-top-3 peer-focus:px-1 bg-neutral-1000 peer-focus:text-twitterblue transition duration-300">Bio</label>
+        </section>
+
+        <section class="relative w-full mt-6">
+            <input type="text" id="Label" placeholder="Location"
+                class="w-full py-4 px-3 h-[50px] rounded border border-solid text-neutral-50 text-20 bg-neutral-1000 placeholder:text-neutral-500 placeholder:visible placeholder:focus:invisible focus:outline-none focus:border-twitterblue transition duration-300 peer relative"
+                autocomplete="off">
+            <label for="Label"
+                class="absolute left-3 text-neutral-500 cursor-text invisible peer-focus:visible peer-focus:text-12 peer-focus:-top-3 peer-focus:px-1 bg-neutral-1000 peer-focus:text-twitterblue transition duration-300">Location</label>
+        </section>
+
+        <section class="relative w-full mt-6">
+            <input type="text" id="Label" placeholder="Website"
+                class="w-full py-4 px-3 h-[50px] rounded border border-solid text-neutral-50 text-20 bg-neutral-1000 placeholder:text-neutral-500 placeholder:visible placeholder:focus:invisible focus:outline-none focus:border-twitterblue transition duration-300 peer relative"
+                autocomplete="off">
+            <label for="Label"
+                class="absolute left-3 text-neutral-500 cursor-text invisible peer-focus:visible peer-focus:text-12 peer-focus:-top-3 peer-focus:px-1 bg-neutral-1000 peer-focus:text-twitterblue transition duration-300">Website</label>
+        </section>
+    </article>
+</body>
+
+</html>
