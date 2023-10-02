@@ -3,6 +3,11 @@ module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {
+      minHeight: {
+        "screen": "100dvh",
+        "screen-small": "100svh",
+        "screen-large": "100lvh"
+      },
       margin: {
         '65': '260px',
       },
@@ -112,6 +117,7 @@ module.exports = {
         '18.026':'18.026px',
         '13.091':'13.091px',
         '824':'824px',
+        
       },
       borderColor: {
         'color': 'var(--stroke, rgba(29, 155, 240, 0.24))',

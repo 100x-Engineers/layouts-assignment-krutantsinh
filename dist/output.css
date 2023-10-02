@@ -576,6 +576,10 @@ video {
   left: 0px;
 }
 
+.left-1 {
+  left: 0.25rem;
+}
+
 .left-2 {
   left: 0.5rem;
 }
@@ -584,80 +588,40 @@ video {
   left: 0.75rem;
 }
 
-.right-0 {
-  right: 0px;
-}
-
-.top-28 {
-  top: 7rem;
-}
-
-.top-60 {
-  top: 15rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.top-3 {
-  top: 0.75rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.left-4 {
-  left: 1rem;
-}
-
-.left-5 {
-  left: 1.25rem;
-}
-
-.top-5 {
-  top: 1.25rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.left-20 {
-  left: 5rem;
-}
-
-.left-28 {
-  left: 7rem;
-}
-
 .left-32 {
   left: 8rem;
-}
-
-.left-36 {
-  left: 9rem;
-}
-
-.left-40 {
-  left: 10rem;
 }
 
 .left-44 {
   left: 11rem;
 }
 
-.left-1 {
-  left: 0.25rem;
+.left-5 {
+  left: 1.25rem;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .top-2 {
   top: 0.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-28 {
+  top: 7rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-60 {
+  top: 15rem;
 }
 
 .mb-16 {
@@ -692,24 +656,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-\[470px\] {
-  margin-top: 470px;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-\[470px\] {
+  margin-top: 470px;
 }
 
 .block {
@@ -730,6 +682,10 @@ video {
 
 .h-13\.091 {
   height: 13.091px;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .h-18\.026 {
@@ -756,8 +712,16 @@ video {
   height: 2.25rem;
 }
 
+.h-\[102px\] {
+  height: 102px;
+}
+
 .h-\[200px\] {
   height: 200px;
+}
+
+.h-\[50px\] {
+  height: 50px;
 }
 
 .h-\[68px\] {
@@ -768,16 +732,8 @@ video {
   height: 100vh;
 }
 
-.h-\[102px\] {
-  height: 102px;
-}
-
-.h-\[50px\] {
-  height: 50px;
-}
-
-.h-14 {
-  height: 3.5rem;
+.min-h-screen {
+  min-height: 100dvh;
 }
 
 .w-12 {
@@ -1055,12 +1011,12 @@ video {
   fill: #F9F9F9;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-15 {
@@ -1327,16 +1283,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   visibility: visible;
 }
 
-.placeholder\:text-neutral-600::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(82 82 82 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-neutral-600::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(82 82 82 / var(--tw-text-opacity));
-}
-
 .placeholder\:text-neutral-500::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
@@ -1345,6 +1291,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .placeholder\:text-neutral-500::placeholder {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-600::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-600::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
 }
 
 .hover\:bg-neutral-200:hover {
